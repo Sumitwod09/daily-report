@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+
+# Android build artifacts
+android/.gradle/
+android/build/
+android/app/build/
+*.apk
+
+# iOS
+ios/Pods/
+
+# Logs
+*.log
+build.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local

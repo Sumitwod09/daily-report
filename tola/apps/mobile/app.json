@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "TOLA",
+    "slug": "tola",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#1A56DB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tola.jewels"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A56DB"
+      },
+      "package": "com.tola.jewels"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "scheme": "tola",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
